@@ -1,0 +1,91 @@
+body{
+  background-image:url(./img/fondo.jpg);
+  font-family: 'Radio Canada', sans-serif;
+}
+
+img{
+  border-radius: 0.5rem;
+}
+
+
+.item {
+  
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.item-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.item-image {
+  height: 28rem;
+  width: 100%;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0px 15px;
+}
+
+.item-details > .item-price {
+  margin: 0;
+}
+
+/* ? SHOPPING CART */
+.shopping-cart-items {
+  padding: 20px 0px;
+}
+
+.shopping-cart-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+}
+
+.items{
+  display: grid;
+  grid-template-columns: 100% 100% 100%;
+  grid-gap: 1em;
+
+}
+
+#tienda{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+
+
+}
+
+.carrito{
+  width: 2%;
+}
+
+.navbar-tienda{
+  background-color: rgb(229, 229, 112);
+}
+
+
+.bg-dark {
+  background-color: aquamarine;
+}
